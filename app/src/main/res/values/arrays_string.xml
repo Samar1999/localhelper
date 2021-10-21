@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="states">
+        <item>Select Area</item>
+        <item>Mumbai</item>
+        <item>NaviMumbai</item>
+    </string-array>
+    <string-array name="Mumbai">
+        <item>Chembur</item>
+        <item>Kurla</item>
+        <item>Tilkanagar</item>
+    </string-array>
+    <string-array name="NaviMumbai">
+        <item>Select Area </item>
+        <item>Nerul</item>
+        <item>Vashi</item>
+        <item>Koparkhairane</item>
+    </string-array>
+    <string-array name="Gender">
+        <item> </item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="profession">
+        <item> </item>
+        <item>Electrician</item>
+        <item>Plumber</item>
+        <item> Waxing aunty</item>
+        <item> Kaamwali maushi</item>
+        <item> Makeup maushi</item>
+        <item> Dusting maushi</item>
+        <item> IKEA maushi</item>
+        <item> Nanny maushi</item>
+
+    </string-array>
+</resources>

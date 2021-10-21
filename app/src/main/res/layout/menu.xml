@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="32dp"
+    android:layout_marginEnd="32dp"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="Upload Photo!"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/divider1"
+        android:layout_below="@id/title"
+
+        android:background="@android:color/darker_gray"/>
+
+    <!--<Button
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider1"
+        android:layout_marginTop="164dp"
+        android:onClick="random"
+        android:paddingStart="15dp"
+        android:text="Take Picture"
+        android:textSize="30sp"/>-->
+
+    <TextView
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider1"
+        android:layout_marginTop="51dp"
+        android:onClick="takePictureFromCamera"
+        android:paddingStart="15dp"
+        android:text="Take Picture"
+        android:textSize="30sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/divider2"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_below="@id/camera"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/camera"
+        android:layout_marginTop="41dp"
+        android:paddingStart="15dp"
+        android:text="  Choose from Gallery"
+        android:textSize="30sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height = "1dp"
+        android:layout_marginTop="5dp"
+        android:id = "@+id/divider3"
+        android:layout_below = "@id/gallery"
+        android:background = "@android:color/black"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gallery"
+        android:layout_marginTop="37dp"
+        android:paddingStart="15dp"
+        android:text="  Cancel"
+        android:textSize="30sp" />
+
+</RelativeLayout>
